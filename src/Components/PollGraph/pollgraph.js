@@ -10,12 +10,12 @@ function pollgraph() {
           </div>
           <div className="poll-options-graph">
 
-          <button className='poll-option-graph'>Option 1</button><span className='percent-option1'>50%</span>
-          <div className="option1-poll-percent"></div>
-          <button  className='poll-option-graph'>Option 2</button><span className='percent-option2'>25%</span>
-          <div className="option2-poll-percent"></div>
-          <button  className='poll-option-graph'>Option 3</button><span className='percent-option3'>25%</span>
-          <div className="option3-poll-percent"></div>
+          <button className='poll-option-graph'>Option 1</button>
+          <div className="option-flex-with-percent"><div className="option1-poll-percent"></div><div className="percent-option1">50%</div></div>
+          <button  className='poll-option-graph'>Option 2</button>
+          <div className="option-flex-with-percent"><div className="option2-poll-percent"></div><div className="percent-option2">25%</div></div>
+          <button  className='poll-option-graph'>Option 3</button>
+          <div className="option-flex-with-percent"><div className="option3-poll-percent"></div><div className="percent-option3">25%</div></div>
 
           </div>  
 
