@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import Poll from "./Components/Poll/poll"
+import Poll2 from "./Components/Poll2/poll2"
+import PollResult from "./Components/PollResult/pollresult";
+import PollGraph from "./Components/PollGraph/pollgraph"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <PollGraph/>
+     <PollResult/>
+    <Poll/>
+
+    </>
   );
 }
 
