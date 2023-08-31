@@ -116,5 +116,13 @@ body {
   .percent-option3{
     color: #f5f50a;
   }
+.option-flex-with-percent{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+  }
+
 
 
